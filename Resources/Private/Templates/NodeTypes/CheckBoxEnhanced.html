@@ -21,7 +21,7 @@
                 </f:if>
                 <div class="checkbox-enhanced-label">
                     <input {attributes -> f:format.raw()} type="hidden" value="">
-                    <input {attributes -> f:format.raw()} type="checkbox" value="{node.properties.value}" {f:if(condition: checked, then: 'checked')}/>
+                    <input {attributes -> f:format.raw()} type="checkbox" value="{checkboxValue}" {f:if(condition: checked, then: 'checked')}/>
                     <label>
                         {text -> f:format.raw()}
                     </label>
