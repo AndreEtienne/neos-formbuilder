@@ -46,7 +46,6 @@ prototype(CRON.FormBuilder:CheckBoxEnhanced) < prototype(CRON.FormBuilder:FormEl
 	checked = ${this.value || q(node).property('checked')}
 	text = ${q(node).property('text')}
 	mainText = ${q(node).property('mainText')}
-	checkboxValue = ${q(node).property('value') ? q(node).property('value') : 'on'}
 }
 
 prototype(CRON.FormBuilder:CheckBoxGroup) < prototype(CRON.FormBuilder:FormElement) {
